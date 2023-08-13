@@ -6,6 +6,7 @@ import ssl
 import uuid
 import webbrowser
 
+#create special room id only for testing dont use in production 
 TOKEN = str(uuid.uuid4())
 # ssl_context = ssl.create_default_context(ssl.Purpose.CLIENT_AUTH)
 # ssl_context.load_verify_locations('server.cert')  # Provide the path to the server's certificate
